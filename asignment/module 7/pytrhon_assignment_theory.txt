@@ -1,0 +1,42 @@
+1:what are types?.
+::
+2:what is programing?.
+::
+3:what is python?.
+:: python is a enterprited programing language.
+4:write a pythonprogram to check number is positive or negitive.
+::
+       n=int(input("enter the number:"))
+             if (n>0):
+                print("positive")
+             elif(n==0):
+                 print("zero!")
+              else:
+                   print("nagative")
+5:write a python program to get factorial number of given number.
+::
+6:write python program to get fibonaci series of given range.
+::
+7:how memory managed in python?
+::
+8:what is the purpose continuing sttemant in python?.
+::
+9:write python program that swap two number with temp variable and without temp variable.
+::
+     		a=int(input("enter the value of a:"))
+            b=int(input("enter the value of b:"))
+
+            a,b=b,a
+
+            print("after swaping value of a:",a)
+            print("after swaping value of b:",b)
+10:write a python program to find whether a given number is even or odd pass apropriate massage to user.+
+::n=int(input("enter the number:"))
+    if (n==0):
+       print(n,"is zero!")
+    elif(n%2==0):
+       print(n,"is even!")
+    else:
+       print(n,"is odd!")
+
+
